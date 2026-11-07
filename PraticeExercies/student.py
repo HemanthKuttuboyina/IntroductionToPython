@@ -13,8 +13,8 @@ ana = Student("Ana")
 for g in [12,14,20,40]:
     ana.add_grade(g)
 
-print(ana.avg_compute())
+print("Ana",ana.avg_compute())
 ben = Student("Ben")
 for g in [20,30,20,40]:
     ben.add_grade(g)
-print(ben.avg_compute())
+print("Ben",ben.avg_compute())
